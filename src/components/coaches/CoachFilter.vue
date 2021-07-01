@@ -38,7 +38,7 @@ export default {
             };
             this.filters = updatedFilters;
             this.$emit('change-filter',updatedFilters);
-            console.log(updatedFilters);
+            // console.log(updatedFilters);
         }
     },
 }
